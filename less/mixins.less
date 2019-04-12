@@ -1,1 +1,22 @@
 // Mixins Here
+.btn-style(@color: @btn-bg-color, @text-color: @porcelain) {
+    background-color: @color;
+    color: @text-color;
+    width: 30%;
+    height: auto;
+    padding: 8px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 1.8rem;
+}
+.hover-btn-style(@h-color: @shuttle-gray, @h-text-color: @btn-bg-color) {
+    background: @h-color;
+    color: @h-text-color;
+}
+.flex(@justify: center, @align: center) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}

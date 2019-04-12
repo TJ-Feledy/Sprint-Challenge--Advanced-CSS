@@ -165,9 +165,9 @@ p {
 }
 .nav {
   display: flex;
-  flex-flow: column;
   justify-content: center;
   align-items: center;
+  flex-flow: column;
   background-color: #F6F6F6;
   color: #454A59;
   border: solid 2px #F1F1F1;
@@ -188,8 +188,8 @@ p {
   color: #454A59;
 }
 footer {
-  color: #22283B;
-  background: #f4f4f4;
+  color: #81848E;
+  background: #F6F6F6;
   padding: 20px 0;
   border: 1px double #e0e0e0;
   border-radius: 10px;
@@ -238,6 +238,22 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  background-color: #22283A;
+  color: #F6F7F8;
+  width: 30%;
+  height: auto;
+  padding: 8px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 1.8rem;
+}
+.home .walk .walk-text .btn:hover {
+  background: #5E6164;
+  color: #22283A;
 }
 .home .walk .walk-img {
   width: 46%;
