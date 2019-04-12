@@ -1,1 +1,25 @@
 // Navigation code here
+.nav {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: @nav-bg;
+    color: @river-bend;
+    border: solid 2px @sea-shell;
+    width: 100%;
+    h1 {
+        padding: 10px;
+    }
+    nav {
+        width: 30%;
+        padding: 10px;
+        font-size: 1.4rem;
+        display: flex;
+        justify-content: space-between;  
+    }
+    a {
+        text-decoration: none;
+        color: @river-bend;
+    }
+}
