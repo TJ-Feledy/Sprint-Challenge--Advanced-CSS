@@ -164,6 +164,8 @@ p {
   margin: 0 auto;
 }
 .nav {
+  position: fixed;
+  opacity: 0.7;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -202,6 +204,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro {
+  padding-top: 15%;
+}
+@media (max-width: 500px) {
+  .home .intro {
+    padding-top: 25%;
+  }
 }
 .home .intro h2 {
   padding: 15px;
