@@ -14,8 +14,13 @@
         padding: 10px;
         font-size: 1.4rem;
         display: flex;
-        justify-content: space-between;  
+        justify-content: space-between; 
+        @media @phone { 
+            width: 100%;
+            justify-content: space-evenly;
+        }
     }
+
     a {
         text-decoration: none;
         color: @river-bend;
