@@ -34,13 +34,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+    -- An adaptive website is styled and designed for a set of specific pixel ranges.  A fully responsive website is styled and designed        to adapt to every pixel range.  There will be no horizontal scroll bar when a website is responsive.
+
+
 2. Describe what it means to be mobile first vs desktop first.
+
+    -- The difference is just your design starting point.  When starting mobile first and want to move on to a tablet or desktop, you           would use (min-width: _your tablet or desktop size_) for your break point.  Where as with desktop first you would design your           page at a desktop size and most likely want to go down to a tablet or cell phone. In that case you would use 
+            (max-width: _your tablet or phone size_).
+
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+    -- It sets the font size so that 1rem == 10px.  So if you wanted the equivalent of 24px, all you would need to type is 2.4rem.
+
+
 4. How would you describe preprocessing to someone new to CSS?
 
+    -- Oh boy, ummmm...  It is basically like an app. for your CSS.  It allows you to create shortcuts for your code, in the form of            creating variables(this = 'that') that hold a single piece of code or mixins(this = 'those') that hold multiple lines of code.          Once you have completed your preprocessed code, your preprocessor will then write out all your shortcuts into a normal CSS file.        That is called compiling.  It will save you loads of time because you will not have to repeat multiple lines of code every time         you want to style something the same way as other things.
+
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+    -- I love being able to use mixins for multiple information bubbles or button styles that will be the same.  Also, I feel like being        able to nest elements within their parent element makes the code WAY easier to read and locate.  The only concept I have trouble        grasping is if I was creating my own LESS file from scratch, knowing the exact proper cascade of @import for specificity.  I            know you guys have been just giving the proper order to us, but i wouldnt mind knowing how you guys came about determining the c        ascade order.  Im sure it's probably a huge, long, pain-in-the-booty process, but still, i cant help wondering.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

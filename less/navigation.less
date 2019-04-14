@@ -1,1 +1,30 @@
 // Navigation code here
+.nav {
+    position: fixed;
+    opacity: .7;
+    .flex();
+    flex-flow: column;
+    background-color: @nav-bg;
+    color: @river-bend;
+    border: solid 2px @sea-shell;
+    width: 100%;
+    h1 {
+        padding: 10px;
+    }
+    nav {
+        width: 30%;
+        padding: 10px;
+        font-size: 1.4rem;
+        display: flex;
+        justify-content: space-between; 
+        @media @phone { 
+            width: 100%;
+            justify-content: space-evenly;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: @river-bend;
+    }
+}
